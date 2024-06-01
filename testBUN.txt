@@ -1,0 +1,54 @@
+intreg @x;
+intreg @x1;
+intreg @x2=3;
+
+intreg @arr[10];
+real @f;
+constant intreg @y4=4+3;
+sir @m=ana;
+chara @ok = X;
+bool @em=fals;
+
+functie: intreg @nume(intreg @a,intreg @b)
+{daca(@x2<4){@x2=@x2+1;}
+}
+
+functie: fara_tip @test1(intreg @a,intreg @b)
+{returneaza 7;
+}
+
+functie: intreg @test2(intreg @a,intreg @b,real @c)
+{cat_timp(@x2<4){@x2=@x2+1;}
+}
+
+
+tip_propriu: @persoana
+{   sir @nume; intreg @ani;
+    functie: intreg @fct()
+    {daca(@x2<4){@x2=@x2+1;}
+    }
+}
+
+
+inceput_main
+ tip_propriu: @persoana @p1;
+ intreg @y=@x2+3;
+ @arr[2]=5;
+ @arr[3]=6;
+ @nume(@a,@b);
+ @y=@nume(@a,@b)+3;
+
+ @x=10; @x1=20; @x2=30;@y=100;  
+ daca(  (@x1+@nume(@a,@b)< (5+@x1)) si ( ((@x>2) sau (@x1<4+@x2)) sau (@x==2) ) ){@x=2;} 
+
+ @x = @test1(@test1(@x1,3,@f)+2, @y+4) + (30 - @y * @arr[2]) - 10;
+ @x=2;
+ @x = @x*100 + 5 * 100 + @arr[2];
+ 
+ intreg @buf=0;
+ pentru(intreg @i=1; @i<=3; @i=@i+1)
+{ @buf=@buf+1;
+}
+
+
+sfarsit_main
