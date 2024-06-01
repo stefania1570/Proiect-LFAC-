@@ -1,0 +1,6 @@
+SYMBOL   DATATYPE    PARAMS
+__________________________________________________
+
+@nume	intreg	intreg @a	intreg @b	
+@test1	fara_tip	intreg @a	intreg @b	
+@test2	intreg	intreg @a	intreg @b	real @c	

@@ -1,0 +1,19 @@
+SYMBOL   DATATYPE   TYPE   LINE NUMBER    VALUE
+__________________________________________________
+
+@x	intreg	Variable	1	705
+@x1	intreg	Variable	2	20
+@x2	intreg	Variable	3	30
+@arr	intreg	Array	5		0 0 5 6 0 0 0 0 0 0 
+@f	real	Variable	6	0
+@y4	intreg	Variable	7	7
+@m	sir	Variable	8	<ana>
+@ok	chara	Variable	9	<X>
+@em	bool	Variable	10	<fals>
+@a	intreg	Variable	12	0
+@b	intreg	Variable	12	0
+@c	real	Variable	20	0
+@nume	sir	Variable	26	<(null)>
+@ani	intreg	Variable	26	0
+@y	intreg	Variable	35	100
+@buf	intreg	Variable	48	1
